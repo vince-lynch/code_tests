@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  console.log( "jquery ready!" );
+ 
 
 
 /* Nav bar functionality*/
@@ -12,7 +12,7 @@ $( document ).ready(function() {
   var i = 1;
   setInterval(function(){ 
     $('.carousel').css("background-image", "url(../images/slider" + i + ".jpg)");  
-    if (i < 4){
+    if (i < 3){
       i++
     } else {
       i = 1;
