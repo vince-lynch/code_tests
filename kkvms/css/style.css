@@ -18,7 +18,13 @@ header {
   background-color: white;
   color: #0061b5;
   font-size: 41px;
+  margin-left: 105px;
 }
+
+.logo{
+margin-top: 40px;
+}
+
 header img {
   margin-top: 20px;
   display: inline-block;
@@ -28,8 +34,26 @@ header img {
 
 .tagline {
   white-space: pre-line;
-  display: inline-block;
+  display: block;
   font-size: 12px;
+  margin-top: -30px;
+  margin-left: 85px;
+}
+
+.phonenum {
+  position: absolute;
+  font-size: 22px;
+  margin-left: 600px;
+  margin-top: -30px;
+  display: inline-block;
+}
+
+.search {
+  position: absolute;
+  font-size: 20px;
+  margin-left: 900px;
+  margin-top: -30px;
+  display: inline-block;
 }
 
 .carousel {
@@ -42,15 +66,14 @@ header img {
 
 .intro {
   position: absolute;
-  text-align: justify;
+  text-align: left;
   margin-top: 35px;
   margin-left: 100px; 
   margin-right: 100px; 
   vertical-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  background-color:rgba(0,95,179,0.3);
-  font-size: 41px;
+  font-size: 3vw;
 }
 
 
@@ -59,11 +82,13 @@ header img {
   color:#ff9900;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  background-color:rgba(0,95,179,0.3);
 }
 .intro-white{
   color:#ffffff;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  background-color:rgba(0,95,179,0.3);
 }
 
 h1 {
@@ -73,7 +98,7 @@ h1 {
 
 main {
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 105px;
   margin-right: 40px;
   margin-bottom: 180px;
 }
@@ -219,12 +244,14 @@ ul {
   position: absolute;
   display:block; 
   text-align: center;
+  width: 100%;
+  
 }
 
  ul.menu li {
-    padding-left: 100px;
     display: inline;
     overflow: hidden;
+    padding-left: 50px;
 }
 
 ul li a {
@@ -251,7 +278,7 @@ ul li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    margin-left: 880px;
+    margin-left: 810px;
     background:rgba(0,95,179,0.9);
     min-width: 160px;
     z-index: 4;
