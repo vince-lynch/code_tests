@@ -79,12 +79,14 @@ header img {
 
 
 .intro-orange{
+  line-height: 3.6vw;
   color:#ff9900;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   background-color:rgba(0,95,179,0.3);
 }
 .intro-white{
+  line-height: 3.6vw;
   color:#ffffff;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -97,19 +99,18 @@ h1 {
 }
 
 main {
-  margin-top: 40px;
-  margin-left: 105px;
-  margin-right: 40px;
-  margin-bottom: 180px;
+margin-top: 40px;
+margin-left: 100px;
 }
 
-.pagecontent {
-  margin-top: 15px;
-}
+
 
 .content-list {
+  position: absolute;
   text-align: left;
   font-size: 18px;
+  display: block;
+  z-index: 0;
 }
 
 
@@ -131,12 +132,13 @@ display: block;
 
 .actions {
   display: block;
+  width: 100%;
   position: absolute;
-  margin-top: 56px; 
-  margin-left: 30%;
+  margin: 0 auto;
 }
 
 .actionblocks{
+margin-top: 56px;
 display: inline-block;
 color: white;
 width: 100px;
@@ -148,24 +150,23 @@ text-align: center;
   width: 100%;
   height: 70px;
   position: relative;
-  margin-top: 70%;
   display: block;
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .box {
-  margin: 5px;
   position: relative;
   border: 1px white solid;
   color: white;
   height: 60%;
   width: 315px;
-  left: 24%;
   display: inline-block;
   clear: both;
   z-index: 0;
   font-size: 17px;
   padding-top: 30px;
+  margin: 0 auto;
 }
 
 
@@ -219,22 +220,43 @@ text-align: center;
 .legal {
   position: absolute;
   color: white;
-  left: 0px;
-  width: 600px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
   text-align: center;
-  margin-left: -80px;
   margin-top: 40px;
   font-size: 12px;
+}
+
+
+.page-content{
+  position: absolute;
+  margin-top: 40px;
   display: block;
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.pagebottom{
+  position: absolute;
+  right: 0;
+  bottom: -1000px;
+  height: 400px;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  z-index: 4;
 }
 
 .footerlinks {
   position: absolute;
   display: block;
-  margin-left: -65px;
   margin-top: 70px;
-  width: 700px;
+  width: 100%;
   color: white;
+
 }
 .footerlinks a {
   color: white;
